@@ -373,6 +373,11 @@ footer {
   margin: auto;
 }
 
+body p{
+  text-align: center;
+  
+}
+
 .partFooter {
   text-align: center;
 }
@@ -386,6 +391,7 @@ footer {
 
 .partFooter img {
   width: 70%;
+  cursor: pointer;
 }
 
 .partFooter a {
@@ -414,6 +420,7 @@ footer {
   transition: all ease-in-out 0.3s;
   padding: 5px;
   cursor: pointer;
+  margin: 2px;
 }
 
 .social-media i:hover {
