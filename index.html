@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página web, Html5 + Css + Js</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
           <div class="logo">
             <img
               src="/img/Screenshot_from_2022-09-29_12-59-02-removebg-preview.png"
-              alt=""
+              alt="" data-aos="fade-up"
             />
           </div>
           <div class="enlaces-header">
@@ -39,7 +40,7 @@
             </p>
             <a href="#">Learn more</a>
           </section>
-          <img src="/img/undraw_web_developer_re_h7ie.svg" alt="" />
+          <img src="/img/undraw_web_developer_re_h7ie.svg" alt="" data-aos="zoom-out-right"/>
         </section>
       </div>
     </header>
@@ -47,32 +48,38 @@
       <div class="container1">
         <h2 class="title">We provide a wide range</h2>
         <div class="container-article">
-          <div class="article">
+          <div class="article" data-aos="zoom-out-right">
             <i class="fas fa-pen-fancy"></i>
             <h3>Web design</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
               possimus earum totam iure inventore aliquam?
             </p>
-            <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="#"
+              >Read more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
           </div>
-          <div class="article">
+          <div class="article" data-aos="zoom-out-right">
             <i class="fas fa-code"></i>
             <h3>Graphic design</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
               possimus earum totam iure inventore aliquam?
             </p>
-            <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="#"
+              >Read more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
           </div>
-          <div class="article">
+          <div class="article" data-aos="zoom-out-right">
             <i class="fas fa-cog"></i>
             <h3>hola:3</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
               possimus earum totam iure inventore aliquam?
             </p>
-            <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="#"
+              >Read more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -86,7 +93,7 @@
         </p>
         <a href="#">Learn more</a>
       </section>
-      <img src="/img/undraw_static_website_re_x70h.svg" alt="" />
+      <img src="/img/undraw_static_website_re_x70h.svg" alt="" data-aos="zoom-out-right" />
     </section>
 
     <section class="results">
@@ -133,7 +140,7 @@
     </section>
 
     <section class="container1 services">
-      <img src="img/undraw_design_stats_ne2k.svg" alt="" />
+      <img src="img/undraw_design_stats_ne2k.svg" alt="" data-aos="zoom-out-right"/>
       <div class="box-skills">
         <h4><i class="fa-regular fa-circle-check"></i>Web design</h4>
         <h4><i class="fa-regular fa-circle-check"></i>Web development</h4>
@@ -146,7 +153,7 @@
       <div class="partFooter">
         <img
           src="img/Screenshot_from_2022-09-29_12-59-02-removebg-preview.png"
-          alt=""
+          alt="" data-aos="fade-up"
         />
       </div>
       <div class="partFooter">
@@ -171,10 +178,11 @@
         </div>
       </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://kit.fontawesome.com/a3dd4e0896.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
