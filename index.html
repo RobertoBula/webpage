@@ -7,24 +7,20 @@
     <title>Página web, Html5 + Css + Js</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
       <nav>
         <section class="container nav">
           <div class="logo">
-            <img
-              src="img/Screenshot_from_2022-09-29_12-59-02-removebg-preview.png"
-              alt=""
-              data-aos="fade-up"
-            />
+            <img src="img/Logo.png" alt="" data-aos="fade-up" />
           </div>
           <div class="enlaces-header">
-            <a href="#">Inicio</a>
-            <a href="#">Inicio</a>
-            <a href="#">Inicio</a>
-            <a href="#">Inicio</a>
-            <a href="#">Inicio</a>
+            <a href="#content-header">Inicio</a>
+            <a href="#about-us">About us</a>
+            <a href="#question">Question</a>
+            <a href="#results">Results</a>
           </div>
           <div class="hamburguer">
             <i class="fa-solid fa-bars"></i>
@@ -32,7 +28,7 @@
         </section>
       </nav>
       <div class="container">
-        <section class="content-header">
+        <section class="content-header" id="content-header">
           <section class="text-header">
             <h1>Our creativity is your success</h1>
             <p>
@@ -49,7 +45,7 @@
         </section>
       </div>
     </header>
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="container1">
         <h2 class="title">We provide a wide range</h2>
         <div class="container-article">
@@ -89,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="question container">
+    <section class="question container" id="question">
       <section class="text-question">
         <h1>Our creativity is your success</h1>
         <p>
@@ -105,7 +101,7 @@
       />
     </section>
 
-    <section class="results">
+    <section class="results" id="results">
       <div class="container1 content-result">
         <section class="numbers">
           <div class="number" data-aos="fade-down-right">
@@ -149,7 +145,11 @@
     </section>
 
     <section class="container1 services">
-      <img src="img/undraw_design_stats_ne2k.svg" alt="" data-aos="zoom-out-up"/>
+      <img
+        src="img/undraw_design_stats_ne2k.svg"
+        alt=""
+        data-aos="zoom-out-up"
+      />
       <div class="box-skills">
         <h4><i class="fa-regular fa-circle-check"></i>Web design</h4>
         <h4><i class="fa-regular fa-circle-check"></i>Web development</h4>
@@ -160,11 +160,7 @@
 
     <footer>
       <div class="partFooter">
-        <img
-          src="img/Screenshot_from_2022-09-29_12-59-02-removebg-preview.png"
-          alt=""
-          data-aos="fade-up"
-        />
+        <img src="img/Logo.png" alt="" data-aos="fade-up" />
       </div>
       <div class="partFooter">
         <h4>Servicios</h4>
