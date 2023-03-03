@@ -389,7 +389,17 @@ nav {
 
 .numbers .number p {
   color: #1d273b;
+  text-align: justify;
   font-weight: 300;
+}
+
+.numbers .number a {
+  text-decoration: none;
+}
+
+.numbers .number h4:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 .results-text {
